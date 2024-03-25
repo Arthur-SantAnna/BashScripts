@@ -2,8 +2,6 @@
 
 ##Arthur Sant'Anna de Carvalho Santos##
 
-exec 1> >(logger -s -t $(basename $0)) 2>&1
-
 date=$(date +"%d-%m-%Y-%H:%M:%S")
 
 function backup {
@@ -68,8 +66,6 @@ read input
 
 input=$(echo "$input" | tr '[:upper:]' '[:lower:]')
 
-set -x
-set -e
 case $input in
 "backup")
 	backup;;
@@ -80,4 +76,3 @@ case $input in
 *)
 	remove;;
 esac
-set +x
