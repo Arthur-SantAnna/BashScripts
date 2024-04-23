@@ -1,0 +1,6 @@
+Para o mes de novembro de 2023, em Salvador-BA:
+Novos obitos: 7
+Novos casos: 1498
+Obitos acumulados: 274914
+Recuperados novos: 0
+Soma de todos os valores: 276419
