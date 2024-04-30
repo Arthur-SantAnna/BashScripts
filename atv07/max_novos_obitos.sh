@@ -1,5 +1,7 @@
 #!/bin/bash
 
+## Arthur Sant'Anna de Carvalho Santos##
+
 ARQUIVO_CSV="HIST_PAINEL_COVIDBR_2023_Parte2_13abr2024.csv"
 
 NOVO_CSV="covid_ba_2023_2.csv"
